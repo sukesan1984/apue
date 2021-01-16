@@ -15,4 +15,7 @@
 #include <unistd.h>
 #include <signal.h>
 
+void err_ret(const char *, ...);
+void err_sys(const char *, ...) __attribute__((noreturn));
+
 #endif
