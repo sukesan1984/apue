@@ -1,0 +1,8 @@
+total 64
+drwxr-xr-x   7 kosuketakami  staff    224  2  3 12:23 .
+drwxr-xr-x  12 kosuketakami  staff    384  2  3 12:18 ..
+-rwxr-xr-x   1 kosuketakami  staff  12976  2  3 12:23 a.out
+-rw-r--r--   1 kosuketakami  staff    439  2  3 12:22 fputs.c
+-rw-r--r--   1 kosuketakami  staff    293  2  3 12:08 gets_fgets.c
+-rw-r--r--   1 kosuketakami  staff      9  2  3 12:22 hoge
+-rw-r--r--   1 kosuketakami  staff      4  2  3 12:20 test
