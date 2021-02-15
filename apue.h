@@ -1,6 +1,7 @@
 #ifndef _APUE_H
 # define _APUE_H
 
+extern char **environ;
 
 # define MAXLINE 4096
 # define FILE_MODE (S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH)
@@ -23,5 +24,12 @@ void err_sys(const char *, ...) __attribute__((noreturn));
 void err_dump(const char *, ...);
 void err_quit(const char *, ...);
 char *path_alloc(size_t *sizep);
+void pr_exit(int status);
+
+void TELL_WAIT(void);
+void TELL_PARENT(pid_t);
+void TELL_CHILD(pid_t);
+void WAIT_PARENT(void);
+void WAIT_CHILD(void);
 
 #endif
